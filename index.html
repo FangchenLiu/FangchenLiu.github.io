@@ -26,7 +26,7 @@
     <link href="css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/style.css?1" rel="stylesheet">
+    <link href="css/style.css?3" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
 
 </head>
@@ -41,7 +41,7 @@
         <div class="row">
             <div class="col-lg-6 col-lg-offset-0">
                 <h1>Fangchen Liu</h1>
-                <h2>M.S. at UC San Diego</h2>
+                <h2>UC San Diego</h2>
             </div>
         </div>
     </div> <!-- /container -->
@@ -72,25 +72,23 @@
 <div class="container" style="font-family:metropolis">
     <div id="about" class="col-md-10" style="text-align:justify">
         <h3>About Me</h3>
-        <p>I am a first-year master student in Computer Science Department of UC
+        <p>I am a second-year master student in Computer Science Department of UC
             San Diego, advised by Prof. <a
                     href="http://cseweb.ucsd.edu/~haosu/">Hao Su</a>. Before
             that, I received the honored B.S. in Computer Science from <a
                     href="http://english.pku.edu.cn/">Peking University</a> in
             2018, and worked with Prof. <a
                     href="http://scholar.pku.edu.cn/yzwang/home">Yizhou
-                Wang</a> and Dr. <a
-                    href="https://sites.google.com/site/jimxinbo/">Bo
-                Xin</a> on computer vision and reinforcement learning problems.</p>
-        <p>My research focuses on building a structural model of environment, using tools
-            from reinforcement learning and 3D deep learning.</p>
+                Wang</a>.</p>
+        <p>My research focuses on the algorithms and applications of reinforcement learning, imitation learning and
+            3D vision, especially on building and interacting with a structural model of environment.</p>
         <h3>Education</h3>
         <div class="media">
                 <span class="pull-left"><img src="./images/ucsd1.jpeg"
                                              width="96px" height="96px"/></span>
             <div class="media-body">
                 <p>Computer Science and Engineering,
-                    <i><b>University of California, San Diego</b></i></p>
+                    <b>University of California, San Diego</b></p>
                 <span style="font-weight: bold">Sep. 2018 - Present</span>
                 <p>Master of Science</p>
             </div>
@@ -100,7 +98,7 @@
                                              width="96px" height="96px"/></span>
             <div class="media-body">
                 <p>Department of Computer Science,
-                    <i><b>Peking University</b></i></p>
+                    <b>Peking University</b></p>
                 <span style="font-weight:bold">Sep. 2014 - Jul. 2018</span>
                 <p>Bachelor of Science</p>
             </div>
@@ -110,29 +108,138 @@
     <div id="publication" class="col-md-10" style="text-align:justify">
         <h3>Publications</h3>
         <h4>(* indicates equal contribution)</h4>
-        <li>Z. Huang*, <b>F. Liu*</b>, H. Su.<br>
-            <a href="https://arxiv.org/pdf/1908.05451.pdf">Mapping State Space using Landmarks for Universal Goal Reaching</a><br>
-            <i>In Submission</i>, 2019.<br>
-        <li>B. Sun, N. Tsai,
-            <b>F. Liu</b>, R. Yu, H. Su.<br>
-                <a href="https://arxiv.org/pdf/1812.00037.pdf">Adversarial Defense by Stratified Convolutional Sparse Coding</a><br>
-                <i>Accepted to CVPR</i>, 2019.<br>
-        <li>X. Kong,
-            <b>F. Liu</b>*, B. Xin*, Y. Wang.<br>
-                <a href="https://drive.google.com/file/d/1Yfv5t3JUMMl3HOeVCNrnHAvRlStNWs4e/view">Effective Master-Slave Communication On A Multi-Agent Deep Reinforcement Learning System.</a><br>
-                <i>Accepted to Hierarchical Reinforcement Learning Workshop at NIPS</i>, 2017.<br>
-
-        <li>X. Kong,
-            <b>F. Liu*</b>, B. Xin*, Y. Wang.<br>
-                <a href="https://arxiv.org/abs/1712.07305">Revisiting the Master-slave Architecture in Multi-agent Deep Reinforcement Learning.</a>
-                <i>ArXiv: 1712.07305</i>
-        <li>F. Yu, W.
-            Xian, Y. Chen, <b>F. Liu</b>, M. Liao, V. Madhavan, T.
-            Darrell.<br>
-            <a href="https://arxiv.org/abs/1805.04687">
-                A Driving Video Database with Scalable Annotation Tooling.</a>
-            <i>ArXiv: 1805.04687</i>
+        <div class="pub">
+            <table width="100%" border="0">
+                <tr>
+                    <td width="20%" height="22%" valign="top">
+                        <a href="images/imitation.png" class="image"><img src="images/imitation.png" width="90%" alt=""></a>
+                    </td>
+                    <td width="80%">
+                        <div >State Alignment-based Imitation Learning</div>
+                        <div>
+                            <span><b>Fangchen Liu</b></span>,
+                            <span>Zhan Ling</span>,
+                            <span>Tongzhou Mu</span>,
+                            <span>Hao Su</span>
+                        </div>
+                        <div>
+                            <span class="tag"><b>In Submission to ICLR 2020</b></a></span>
+                            <div>
+                                <span class="tag"><a href="https://openreview.net/forum?id=rylrdxHFDr">Paper</a></span> /
+                                <span class="tag"> Code Release Soon</span>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <div class="pub">
+            <table width="100%" border="0">
+                <tr>
+                    <td width="20%" valign="top">
+                        <a href="images/map.png" class="image"><img src="images/map.png" width="90%"  alt=""></a>
+                    </td>
+                    <td width="80%">
+                        <div >Mapping State Space using Landmarks for Universal Goal Reaching</div>
+                        <div>
+                            <span><b>Fangchen Liu*</b></span>,
+                            <span>Zhiao Huang*</span>,
+                            <span>Hao Su</span>
+                        </div>
+                        <div>
+                            <span class="tag"><b>Accepted to NeurIPS 2019</b></a></span>
+                            <div>
+                                <span class="tag"><a href="https://arxiv.org/pdf/1908.05451.pdf">Paper</a></span> /
+                                <span class="tag"><a href="https://github.com/FangchenLiu/map_planner">Code</a></span>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <div class="pub">
+            <table width="100%" border="0">
+                <tr>
+                    <td width="20%" valign="top">
+                        <a href="images/sparse.png" class="image"><img src="images/sparse.png" width="90%" alt=""></a>
+                    </td>
+                    <td width="80%">
+                        <div>Adversarial Defense by Stratified Convolutional Sparse Coding</div>
+                        <div>
+                            <span>Bo Sun</span>,
+                            <span>Nian-Tsuan Tsai</span>,
+                            <span><b>Fangchen Liu</b></span>,
+                            <span>Ronald Yu</span>,
+                            <span>Hao Su</span>
+                        </div>
+                        <div>
+                            <span class="tag"><b>Accepted to CVPR 2019</b></a></span>
+                            <div>
+                                <span class="tag"><a href="https://arxiv.org/pdf/1812.00037.pdf">Paper</a></span>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <div class="pub">
+            <table width="100%" border="0">
+                <tr>
+                    <td width="20%" valign="top">
+                        <a href="images/marl.png" class="image"><img src="images/marl.png" width="90%" alt=""></a>
+                    </td>
+                    <td width="80%">
+                        <div >Revisiting the Master-Slave Architecture in Multi-Agent Deep Reinforcement Learning</div>
+                        <div>
+                            <span>Xiangyu Kong</span>,
+                            <span><b>Fangchen Liu*</b></span>,
+                            <span>Bo Xin*</span>,
+                            <span>Yizhou Wang</span>
+                        </div>
+                        <div>
+                            <span class="tag"><b>ArXiv: 1712.07305</b></a></span>
+                            <div>
+                                <span class="tag"><a href="https://arxiv.org/abs/1712.07305">Paper</a></span>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <div class="pub">
+            <table width="100%" border="0">
+                <tr>
+                    <td width="20%" valign="top">
+                        <a href="images/data.png" class="image"><img src="images/data.png" width="90%" alt=""></a>
+                    </td>
+                    <td width="80%">
+                        <div >A Driving Video Database with Scalable Annotation Tooling</div>
+                        <div>
+                            <span>Fisher Yu</span>,
+                            <span>Wenqi Xian</span>,
+                            <span>Yingying Chen</span>,
+                            <span><b>Fangchen Liu</b></span>,
+                            <span>Mike Liao</span>,
+                            <span>Vash Madhavan</span>,
+                            <span>Trevor Darrell</span>
+                        </div>
+                        <div>
+                            <span class="tag"><b>ArXiv: 1805.0468</b></a></span>
+                            <div>
+                                <span class="tag"><a href="https://arxiv.org/abs/1805.04687">Paper</a></span>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
     </div>
+    <br>
+
     <div id="work" class="col-md-10" style="text-align:justify">
         <h3>Experience</h3>
         <li><strong><a

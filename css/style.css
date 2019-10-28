@@ -39,7 +39,7 @@
 }
 
 ::selection {
-    background: #16a085;
+    background: #4986a0;
     color: #a4003a;
     text-shadow: none;
 }
@@ -98,7 +98,7 @@ h1 {
     font-weight: 700;
     padding-top: 60px;
     padding-bottom: 4px;
-    color: #408893;
+    color: #4986a0;
 }
 
 h3 {
@@ -107,7 +107,7 @@ h3 {
     font-weight: 700;
     padding-top: 10px;
     font-size:18px;
-    color: #408893;
+    color: #4986a0;
 }
 
 
@@ -125,7 +125,7 @@ p .center {
 }
 
 .navbar-default .navbar-brand {
-	color: #1abc9c;
+	color: #3e4ba0;
 }
 
 .navbar-default {
@@ -154,14 +154,14 @@ p .center {
    ========================================================================== */
 
 #headerwrap {
-	background: url(../images/lfc1.jpeg) no-repeat center top;
+	background: url(../images/background.png) no-repeat center top;
 	margin-top: -70px;
-	padding-top: 250px;
-	text-align:center;
+	padding-top: 150px;
+	text-align: center;
 	background-attachment: relative;
 	background-position: center center;
 	min-height: 350px;
-	width: 50%;
+	width: 100%;
 	
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -200,7 +200,7 @@ p .center {
 }
 
 #social i:hover {
-	color: #1abc9c
+	color: #4986a0
 }
 
 #footerwrap {
@@ -261,4 +261,40 @@ p .center {
 
 .gallery img:hover {
 	opacity: 0.4;
+}
+
+div.pub {
+    padding-bottom:25px;
+}
+div.authors a:link,
+div.authors a:visited {
+    color: #777777
+}
+div.authors {
+    font-size: 100%;
+    color: #777777
+}
+span.author {
+    white-space: nowrap
+}
+
+span.me {
+    color: #000000;
+    font-weight: 600
+}
+
+span.highlight,
+span.highlight a:link,
+span.highlight a:visited {
+    color: #BB2222
+}
+
+span.tag,
+span.tag a:link,
+section.pub {
+    padding-bottom:25px;
+}
+
+img {
+    max-width:100%;
 }
