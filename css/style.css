@@ -294,6 +294,10 @@ span.tag a:link,
 section.pub {
     padding-bottom:25px;
 }
+span.des {
+    font-size: 90%;
+    color: #777777
+}
 
 img {
     max-width:100%;
